@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite123]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test456(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNG_Test.VarifyTicketBookingSection">
+        <methods>
+          <include name="afterTest"/>
+          <include name="varifyTicketBookingFields"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="afterMethod"/>
+          <include name="browserLaunch"/>
+          <include name="launchAppicationHomePage"/>
+        </methods>
+      </class> <!-- testNG_Test.VarifyTicketBookingSection -->
+    </classes>
+  </test> <!-- Test456(failed) -->
+</suite> <!-- Failed suite [Suite123] -->
